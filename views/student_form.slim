@@ -1,0 +1,10 @@
+label for="name" Name:
+input#name type="text" name="student[name]" value="#{@student.name}"
+label for="birthdate" Date(mm/dd/yyyy):
+input#birthdate type="text" name="student[birthdate]" value="#{@student.birthdate.strftime("%m/%d/%Y") if @student.birthdate}"
+label for="age" Age:
+input#age type="number" name="student[age]" value="#{@student.age}"
+label for="hometown" Hometown:
+input#hometown type="text" name="student[hometown]" value="#{@student.hometown}"
+label
+input type="submit" value="Save Student's profile"

@@ -1,0 +1,9 @@
+h1 Student Profiles
+a href="/students/new" Create a new student file
+- if @students.any?
+  ul#students
+    -@students.each do |student|
+      li <a href="/students/#{student.id}">#{student.name}</a>
+- else
+  p No student files have been created yet!
+a href="/logout" Logout
