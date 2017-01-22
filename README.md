@@ -1,5 +1,5 @@
 # Online-Bookstore-Website
-# please run main.rb and access the web by localhost
+# "$ ruby main.rb" to start then access the web by localhost please
 # Please use the following ID:
 # username:yuan
 # password:newnew
